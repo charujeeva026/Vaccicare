@@ -77,6 +77,9 @@ header {
   display: grid;
   gap: 70px;
 }
+.guideline-cards a{
+  text-decoration: none;
+}
 
 .card {
   background-color: #274375;

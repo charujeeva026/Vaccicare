@@ -27,7 +27,7 @@ body {
 }
 
 .logo img {
-  width: 100px;
+  width: 80px;
 }
 
 nav a {
@@ -40,7 +40,7 @@ nav a {
 nav a:hover {
   text-decoration: none;
   background-color:  #006cbf;
-  width: 100px;
+  width: 80px;
   padding: 15px;
 }
 
@@ -132,6 +132,9 @@ nav a:hover {
   transition: transform 0.3s;
   height: 218px;
 }
+.feature-card a{
+  text-decoration: none;
+}
 
 .feature-card:hover {
   transform: translateY(-5px);
@@ -169,7 +172,7 @@ nav a:hover {
 }
 
 .footer a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @media (max-width: 1024px) {
